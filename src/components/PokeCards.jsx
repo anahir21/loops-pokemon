@@ -23,22 +23,4 @@ export function PokeCards(props) {
   return pokeList;
 }
 
-//console.log(myMockData[i].sprites.back_default);
-//console.log(myMockData[i].sprites.back_shiny);
-//return <p>{[i].name}</p>;
 
-//const allPokemons = pokemons.map(
-// (pokemon) => `
-// <div class="card">
-// <img src="${pokemon.img}">
-//  <p class="name">${pokemon.num} ${pokemon.name}</p>
-// <p class="type">Tipo: ${pokemon.type.join(", ")}</p>
-//  <p class="physical">Peso: ${pokemon.size.weight} | Altura: ${
-//  pokemon.size.height
-// }</p>
-//  <div class="footer-card">
-//   <span class="generation">${pokemon.generation.name}</span>
-//   </div>
-// </div>
-//`
-//);
